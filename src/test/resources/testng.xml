@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ModalWindow">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkIsRedirectToModalWindow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="DataFromServer">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkModalWindow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="UserName">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Email">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Gender">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserGender"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Phone">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserPhone"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="DOB">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserDob"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Subjects">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserSubjects"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Picture">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkPicture"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Address">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserAddress"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="StateAndCity">
+        <classes>
+            <class name="tests.demoForm.DemoPracticFormTest">
+                <methods>
+                    <include name="checkUserStateCity"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
