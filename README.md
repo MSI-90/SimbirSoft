@@ -1,1 +1,1 @@
-Test project for SDET workshop from SimbirSoft
+Тестовое задание на практикум на SDET в SimbirSoft
